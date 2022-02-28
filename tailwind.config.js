@@ -14,6 +14,11 @@ module.exports = {
         6: "hsl(223, 64%, 98%)",
         7: "hsl(0, 0%, 0%)",
       },
+      theme: {
+        minHeight: {
+          2: "100px",
+        },
+      },
     },
   },
   plugins: [],

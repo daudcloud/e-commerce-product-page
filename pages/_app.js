@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import CartContext from "../context/CartContext";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <CartContext>
+      <Component {...pageProps} />
+    </CartContext>
+  );
 }
 
-export default MyApp
+export default MyApp;
